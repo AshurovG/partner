@@ -1,20 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DirectorCard />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DirectorCard from "./components/DirectorCard.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DirectorCard
   }
 }
 </script>
 
 <style>
+@import url("./reset");
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
