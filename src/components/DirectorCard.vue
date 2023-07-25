@@ -113,6 +113,8 @@ export default {
 .director_card {
   font-family: 'Tahoma';
   font-size: 14px;
+  box-sizing: border-box;
+  overflow: auto;
   height: 100vh;
   color: #fef477;
   background: rgb(247, 247, 247);
@@ -334,6 +336,77 @@ export default {
 
   .back_card_info {
     margin-right: -2rem;
+  }
+}
+
+@media(max-width: 480px) {
+  .card {
+    max-width: 350px;
+    min-width: 350px;
+    height: 398px;
+  }
+
+  .front_card {
+    height: 195px;
+    margin-bottom: 8px
+  }
+
+  .back_card {
+    height: 195px;
+  }
+
+  .card_wrapper {
+    width: 240px;
+    padding-left: 3rem;
+  }
+
+  .card_header {
+    margin-bottom: 18px;
+  }
+
+  .social_media {
+    margin-top: .72rem;
+  }
+
+  .card_container {
+    display: flex;
+    margin-bottom: 6px;
+
+    font-size: .66rem;
+    line-height: 0.78rem;
+  }
+
+  .bottles_img {
+    width: 6.6rem;
+    bottom: -.3rem;
+    right: -2.1rem;
+  }
+
+  .card_img {
+    width: 1.2rem;
+    margin-right: .6rem;
+  }
+
+  .social_media_img {
+    width: 1.5rem;
+    margin-right: .375rem;
+  }
+
+  .logo {
+    width: 5.1rem;
+  }
+
+  .card_header_title {
+    font-size: 1.08rem;
+  }
+
+  .logo_title {
+    font-size: .72rem;
+    margin-top: -0.78rem;
+  }
+
+  .back_card_info {
+    margin-right: -1.5rem;
   }
 }
 </style>
