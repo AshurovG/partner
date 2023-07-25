@@ -110,31 +110,30 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-body {}
-
 .director_card {
+  font-family: 'Tahoma';
   font-size: 14px;
+  height: 100vh;
   color: #fef477;
   background: rgb(247, 247, 247);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   /* добавляем высоту контейнеру для наглядности центрирования */
 }
 
 .card {
+  min-width: 584px;
   max-width: 584px;
   height: 663px;
-  background-color: #fff;
-  font-family: 'Tahoma';
-  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(247, 247, 247);
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.3);
   border: 1px solid #fff;
 }
 
-.back_card {
+/* .back_card {
   min-width: 584px;
-}
+} */
 
 .card_wrapper {
   width: 400px;
@@ -146,7 +145,7 @@ body {}
   height: 324px;
   margin-bottom: 15px;
 
-  background: red url("../images/bg_for_directors.svg");
+  background: url("../images/bg_for_directors.svg");
 
   display: flex;
   align-items: center;
@@ -218,7 +217,7 @@ body {}
 .back_card {
   width: 100%;
   height: 324px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 
   background: red url("../images/bg_for_directors.svg");
 
@@ -231,8 +230,6 @@ body {}
   justify-content: space-between;
   height: 100%;
 }
-
-.back_card_logo {}
 
 .logo {
   display: block;
@@ -265,5 +262,78 @@ body {}
   left: -2.5rem;
   height: 100%;
   border-right: .2rem dotted #ffd066;
+}
+
+
+
+@media(max-width: 600px) {
+  .card {
+    max-width: 467px;
+    min-width: 467px;
+    height: 530px;
+  }
+
+  .front_card {
+    height: 260px;
+    margin-bottom: 10px
+  }
+
+  .back_card {
+    height: 260px;
+  }
+
+  .card_wrapper {
+    width: 320px;
+    padding-left: 4rem;
+  }
+
+  .card_header {
+    margin-bottom: 24px;
+  }
+
+  .social_media {
+    margin-top: .96rem;
+  }
+
+  .card_container {
+    display: flex;
+    margin-bottom: 8px;
+
+    font-size: .88rem;
+    line-height: 1.04rem;
+  }
+
+  .bottles_img {
+    width: 8.8rem;
+    bottom: -.4rem;
+    right: -2.8rem;
+  }
+
+  .card_img {
+    width: 1.6rem;
+    margin-right: .8rem;
+  }
+
+  .social_media_img {
+    width: 2rem;
+    margin-right: .5rem;
+  }
+
+  .logo {
+    width: 6.8rem;
+  }
+
+  .card_header_title {
+    font-size: 1.44rem;
+  }
+
+  .logo_title {
+    font-size: .96rem;
+    margin-top: -1.04rem;
+  }
+
+  .back_card_info {
+    margin-right: -2rem;
+  }
 }
 </style>
