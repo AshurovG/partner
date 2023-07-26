@@ -2,7 +2,7 @@
   <div class="director_card">
     <div class="card">
       <div class="front_card">
-        <div class="card_wrapper">
+        <div class="card_wrapper_for_front">
           <header class="card_header">
             <h1 class="card_header_title">Ашуров Виталий</h1>
             <h1 class="card_header_title subtitle">директор</h1>
@@ -29,29 +29,29 @@
               <div class="card_container">
                 <img class="card_img" src="../images/location.svg" alt="">
                 <div class="img_text">
-                  350075, Краснодарский<br>
-                  край, г. Кранодар,<br>
+                  Краснодарский край, г.<br>
+                  Кранодар, 350075<br>
                   ул. Старокубанская<br>
-                  143/2, офис 7
+                  143/2, офис 7.
                 </div>
               </div>
 
             </div>
 
             <div class="social_media">
-              <div class="rr">
+              <div class="card_container">
                 <img class="social_media_img" src="../images/whatsapp.svg" alt="">
-                <img class="social_media_img" src="../images/telegram.svg" alt="">
-
               </div>
-              <img src="../images/bottles.svg" alt="" class="bottles_img">
+              <div class="card_container">
+                <img class="social_media_img" src="../images/telegram.svg" alt="">
+              </div>
             </div>
           </main>
         </div>
       </div>
 
       <div class="back_card">
-        <div class="card_wrapper">
+        <div class="card_wrapper_for_back">
           <header class="card_header">
             <h1 class="card_header_title">ASHUROV VITALY</h1>
             <h1 class="card_header_title subtitle">director</h1>
@@ -59,7 +59,7 @@
 
           <main class="back_card_wrapper">
             <div class="back_card_logo">
-              <img class="logo" src="../images/logo.svg" alt="">
+              <img class="logo" src="../images/logo.png" alt="">
               <h2 class="logo_title">
                 LLC "Partner"
               </h2>
@@ -87,7 +87,7 @@
                   Krasnodarskiy Krai,<br>
                   Krasnodar, 143/2<br>
                   Starokubanskaya<br>
-                  str., office 7, 350075
+                  str., office 7, 350075.
                 </div>
               </div>
 
@@ -125,9 +125,9 @@ export default {
 }
 
 .card {
-  min-width: 584px;
-  max-width: 584px;
-  height: 663px;
+  min-width: 570px;
+  max-width: 570px;
+  height: 643px;
   background-color: rgb(247, 247, 247);
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.3);
   border: 1px solid #fff;
@@ -137,9 +137,14 @@ export default {
   min-width: 584px;
 } */
 
-.card_wrapper {
+.card_wrapper_for_back {
   width: 400px;
-  padding-left: 5rem;
+  margin: 0 auto;
+}
+
+.card_wrapper_for_front {
+  width: 510px;
+  margin: 0 auto;
 }
 
 .front_card {
@@ -147,7 +152,7 @@ export default {
   height: 324px;
   margin-bottom: 15px;
 
-  background: url("../images/bg_for_directors.svg");
+  background: url("../images/bg_front_for_directors.svg");
 
   display: flex;
   align-items: center;
@@ -170,16 +175,15 @@ export default {
 }
 
 .social_media {
-  margin-top: 1.2rem;
   position: relative;
-  width: 35%;
+  width: 52%;
 }
 
 .front_card_info::after {
   content: '';
   position: absolute;
   top: 0;
-  right: 0;
+  right: 11%;
   height: 100%;
   border-right: .2rem dotted #ffd066;
 }
@@ -190,14 +194,6 @@ export default {
 
   font-size: 1.1rem;
   line-height: 1.3rem;
-}
-
-
-.bottles_img {
-  position: absolute;
-  width: 11rem;
-  bottom: -.5rem;
-  right: -3.5rem;
 }
 
 .card_img {
@@ -221,7 +217,7 @@ export default {
   height: 324px;
   /* margin-bottom: 30px; */
 
-  background: red url("../images/bg_for_directors.svg");
+  background: url("../images/bg_back_for_directors.svg");
 
   display: flex;
   align-items: center;
@@ -246,22 +242,21 @@ export default {
 
 .logo_title {
   font-size: 1.2rem;
-  margin-top: -1.3rem;
-  ;
+  margin-top: .3rem;
   text-align: center;
 }
 
 .back_card_info {
   height: auto;
   position: relative;
-  margin-right: -2.5rem;
+  margin-right: -10%;
 }
 
 .back_card_info::before {
   content: '';
   position: absolute;
   top: 0;
-  left: -2.5rem;
+  left: -17%;
   height: 100%;
   border-right: .2rem dotted #ffd066;
 }
@@ -293,9 +288,7 @@ export default {
     margin-bottom: 24px;
   }
 
-  .social_media {
-    margin-top: .96rem;
-  }
+  .social_media {}
 
   .card_container {
     display: flex;
@@ -303,12 +296,6 @@ export default {
 
     font-size: .88rem;
     line-height: 1.04rem;
-  }
-
-  .bottles_img {
-    width: 8.8rem;
-    bottom: -.4rem;
-    right: -2.8rem;
   }
 
   .card_img {
@@ -374,12 +361,6 @@ export default {
 
     font-size: .66rem;
     line-height: 0.78rem;
-  }
-
-  .bottles_img {
-    width: 6.6rem;
-    bottom: -.3rem;
-    right: -2.1rem;
   }
 
   .card_img {
