@@ -2,12 +2,7 @@
   <div class="director_card">
     <div class="card">
       <div class="front_card">
-        <div class="card_wrapper_for_front">
-          <header class="card_header">
-            <h1 class="card_header_title">Ашуров Виталий</h1>
-            <h1 class="card_header_title subtitle">директор</h1>
-          </header>
-
+        <div class="card_wrapper">
           <main class="front_card_wrapper">
             <div class="front_card_info">
 
@@ -29,68 +24,78 @@
               <div class="card_container">
                 <img class="card_img" src="../images/location.svg" alt="">
                 <div class="img_text">
-                  Краснодарский край, г.<br>
-                  Кранодар, 350075<br>
+                  Краснодарский край,<br>
+                  г. Кранодар,<br>
                   ул. Старокубанская<br>
-                  143/2, офис 7.
+                  143/2, офис 7 350075
                 </div>
               </div>
 
             </div>
 
-            <div class="social_media">
-              <div class="card_container">
-                <img class="social_media_img" src="../images/whatsapp.svg" alt="">
+            <div class="line"></div>
+
+            <div class="front_card_logo">
+              <div class="card_logo">
+                <img class="logo" src="../images/logo.png" alt="">
+                <h1 class="card_header_title">Ашуров Виталий</h1>
+                <h1 class="subtitle">директор</h1>
+                <div class="social_media">
+                  <img class="social_media_img" src="../images/whatsapp.svg" alt="">
+                  <img class="social_media_img" src="../images/telegram.svg" alt="">
+                </div>
               </div>
-              <div class="card_container">
-                <img class="social_media_img" src="../images/telegram.svg" alt="">
-              </div>
+
             </div>
           </main>
         </div>
       </div>
 
       <div class="back_card">
-        <div class="card_wrapper_for_back">
-          <header class="card_header">
-            <h1 class="card_header_title">ASHUROV VITALY</h1>
-            <h1 class="card_header_title subtitle">director</h1>
-          </header>
+        <div class="card_wrapper">
 
           <main class="back_card_wrapper">
             <div class="back_card_logo">
-              <img class="logo" src="../images/logo.png" alt="">
-              <h2 class="logo_title">
-                LLC "Partner"
-              </h2>
+              <div class="card_logo">
+                <img class="logo" src="../images/logo.png" alt="">
+                <h1 class="card_header_title">ASHUROV VITALY</h1>
+                <h1 class="subtitle">director</h1>
+                <div class="social_media">
+                  <img class="social_media_img" src="../images/whatsapp.svg" alt="">
+                  <img class="social_media_img" src="../images/telegram.svg" alt="">
+                </div>
+              </div>
             </div>
+
+            <div class="line"></div>
+
             <div class="back_card_info">
+              <div class="back_card_info_container">
+                <div class="card_container">
+                  <img class="card_img" src="../images/phone.svg" alt="">
+                  <div class="img_text">
+                    +7 (969) 303-11-11<br>
+                    +7 (861) 203-38-33
+                  </div>
+                </div>
 
-              <div class="card_container">
-                <img class="card_img" src="../images/phone.svg" alt="">
-                <div class="img_text">
-                  +7 (969) 303-11-11<br>
-                  +7 (861) 203-38-33
+                <div class="card_container">
+                  <img class="card_img" src="../images/email.svg" alt="">
+                  <div class="img_text">
+                    vit.aks@mail.ru
+                  </div>
+                </div>
+
+                <div class="card_container">
+                  <img class="card_img" src="../images/location.svg" alt="">
+                  <div class="img_text">
+                    Krasnodarskiy Krai,<br>
+                    Krasnodar, 143/2<br>
+                    Starokubanskaya<br>
+                    str., office 7, 350075
+                  </div>
                 </div>
               </div>
-
-              <div class="card_container">
-                <img class="card_img" src="../images/email.svg" alt="">
-                <div class="img_text">
-                  vit.aks@mail.ru
-                </div>
-              </div>
-
-              <div class="card_container">
-                <img class="card_img" src="../images/location.svg" alt="">
-                <div class="img_text">
-                  Krasnodarskiy Krai,<br>
-                  Krasnodar, 143/2<br>
-                  Starokubanskaya<br>
-                  str., office 7, 350075.
-                </div>
-              </div>
-
             </div>
           </main>
         </div>
@@ -125,9 +130,9 @@ export default {
 }
 
 .card {
-  min-width: 570px;
-  max-width: 570px;
-  height: 643px;
+  min-width: 580px;
+  max-width: 580px;
+  height: 650px;
   background-color: rgb(247, 247, 247);
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.3);
   border: 1px solid #fff;
@@ -138,29 +143,33 @@ export default {
 } */
 
 .card_wrapper_for_back {
-  width: 400px;
+  width: 510px;
+  height: 100%;
   margin: 0 auto;
 }
 
-.card_wrapper_for_front {
-  width: 510px;
+.card_wrapper {
+  width: 525px;
+  height: 80%;
   margin: 0 auto;
 }
 
 .front_card {
   width: 100%;
-  height: 324px;
-  margin-bottom: 15px;
+  height: 320px;
+  margin-bottom: 10px;
 
-  background: url("../images/bg_front_for_directors.svg");
+  background: url("../images/bg_for_directors.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 
   display: flex;
   align-items: center;
 }
 
-.card_header {
+/* .card_header {
   margin-bottom: 30px;
-}
+} */
 
 .front_card_wrapper {
   display: flex;
@@ -169,31 +178,44 @@ export default {
 }
 
 .front_card_info {
-  width: 65%;
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  width: 50%;
   position: relative;
 }
 
 .social_media {
-  position: relative;
-  width: 52%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1rem;
 }
 
-.front_card_info::after {
+/* .front_card_info::after {
   content: '';
   position: absolute;
   top: 0;
-  right: 11%;
+  right: -10%;
+  height: 100%;
+  border-right: .2rem dotted #ffd066;
+} */
+
+.line {
+  content: '';
+  top: 0;
+  right: -10%;
   height: 100%;
   border-right: .2rem dotted #ffd066;
 }
 
 .card_container {
   display: flex;
-  margin-bottom: 10px;
+  align-items: flex-start;
+  margin-bottom: 20px;
 
   font-size: 1.1rem;
-  line-height: 1.3rem;
+  line-height: 1.6rem;
 }
 
 .card_img {
@@ -203,7 +225,7 @@ export default {
 
 .social_media_img {
   width: 2rem;
-  margin-right: .5rem;
+  margin-right: 1rem;
 }
 
 
@@ -214,10 +236,12 @@ export default {
 
 .back_card {
   width: 100%;
-  height: 324px;
+  height: 320px;
   /* margin-bottom: 30px; */
 
-  background: url("../images/bg_back_for_directors.svg");
+  background: url("../images/bg_for_directors.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 
   display: flex;
   align-items: center;
@@ -231,11 +255,17 @@ export default {
 
 .logo {
   display: block;
-  width: 8.5rem;
+  width: 7rem;
   margin: 0 auto;
 }
 
 .card_header_title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subtitle {
   font-size: 1.8rem;
   text-align: center;
 }
@@ -247,19 +277,42 @@ export default {
 }
 
 .back_card_info {
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  width: 50%;
   position: relative;
-  margin-right: -10%;
 }
 
-.back_card_info::before {
+.back_card_info_container {}
+
+.back_card_logo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.front_card_logo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+/* .back_card_info::before {
   content: '';
   position: absolute;
   top: 0;
   left: -17%;
   height: 100%;
   border-right: .2rem dotted #ffd066;
-}
+} */
 
 
 
@@ -292,6 +345,7 @@ export default {
 
   .card_container {
     display: flex;
+    /* align-items: flex-start; */
     margin-bottom: 8px;
 
     font-size: .88rem;
