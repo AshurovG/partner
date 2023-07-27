@@ -195,6 +195,7 @@ a {
   right: -10%;
   height: 100%;
   border-right: 3px dotted #ffd066;
+  border-spacing: 5px;
   font-weight: normal;
 }
 
