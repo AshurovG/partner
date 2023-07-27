@@ -194,7 +194,7 @@ a {
   top: 0;
   right: -10%;
   height: 100%;
-  border-right: .12rem dotted #ffd066;
+  border-right: 3px dotted #ffd066;
 }
 
 .card_container {
