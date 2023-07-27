@@ -302,7 +302,7 @@ a {
   }
 
   .line {
-    border-right: .1rem dotted #ffd066;
+    border-right: .12rem dotted #ffd066;
   }
 
   .front_card {
