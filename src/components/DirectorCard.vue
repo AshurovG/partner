@@ -395,4 +395,56 @@ a {
     font-size: 1.08rem;
   }
 }
+
+@media(max-width: 405px) {
+  .card {
+    min-width: 336px;
+    max-width: 336px;
+    height: 375px;
+  }
+
+  .card_wrapper {
+    width: 304px;
+  }
+
+  .front_card {
+    height: 182.5px;
+  }
+
+  .social_media {
+    margin-top: .55rem;
+  }
+
+  .card_container {
+    margin-bottom: .69rem;
+    font-size: .63rem;
+    line-height: 0.9rem;
+  }
+
+  .card_img {
+    width: 1.42rem;
+    margin-right: .69 rem;
+  }
+
+  .social_media_img {
+    width: 1.17rem;
+    margin-right: .58rem;
+  }
+
+  .back_card {
+    height: 182.5px;
+  }
+
+  .logo {
+    width: 4rem;
+  }
+
+  .card_header_title {
+    font-size: .9rem;
+  }
+
+  .subtitle {
+    font-size: .9rem;
+  }
+}
 </style>
