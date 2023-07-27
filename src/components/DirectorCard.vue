@@ -323,6 +323,11 @@ a {
 } */
 
 
+@media(max-height: 650px) {
+  .director_card {
+    height: 100%;
+  }
+}
 
 @media(max-width: 600px) {}
 </style>
