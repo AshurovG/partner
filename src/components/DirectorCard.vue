@@ -301,6 +301,10 @@ a {
     width: 438px;
   }
 
+  .line {
+    border-right: .1rem dotted #ffd066;
+  }
+
   .front_card {
     height: 265px;
   }
