@@ -9,15 +9,15 @@
               <div class="card_container">
                 <img class="card_img" src="../images/phone.svg" alt="">
                 <div class="img_text">
-                  +7 (969) 303-11-11<br>
-                  +7 (861) 203-38-33
+                  <a href="tel:+79693031111">+7 (969) 303-11-1</a><br>
+                  <a href="tel:+78612033833">+7 (861) 203-38-33</a>
                 </div>
               </div>
 
               <div class="card_container">
                 <img class="card_img" src="../images/email.svg" alt="">
                 <div class="img_text">
-                  partner.m2309@mail.ru
+                  <a href="mailto:partner.m2309@mail.ru">partner.m2309@mail.ru</a>
                 </div>
               </div>
 
@@ -41,8 +41,10 @@
                 <h1 class="card_header_title">Ашуров Виталий</h1>
                 <h1 class="subtitle">директор</h1>
                 <div class="social_media">
-                  <img class="social_media_img" src="../images/whatsapp.svg" alt="">
-                  <img class="social_media_img" src="../images/telegram.svg" alt="">
+                  <a class="link" href="https://wa.me/79693031111"><img class="social_media_img"
+                      src="../images/whatsapp.svg" alt=""></a>
+                  <a class="link" href="https://t.me/Ziv1329"><img class="social_media_img" src="../images/telegram.svg"
+                      alt=""></a>
                 </div>
               </div>
 
@@ -61,8 +63,10 @@
                 <h1 class="card_header_title">ASHUROV VITALY</h1>
                 <h1 class="subtitle">director</h1>
                 <div class="social_media">
-                  <img class="social_media_img" src="../images/whatsapp.svg" alt="">
-                  <img class="social_media_img" src="../images/telegram.svg" alt="">
+                  <a class="link" href="https://wa.me/79693031111"><img class="social_media_img"
+                      src="../images/whatsapp.svg" alt=""></a>
+                  <a class="link" href="https://t.me/Ziv1329"><img class="social_media_img" src="../images/telegram.svg"
+                      alt=""></a>
                 </div>
               </div>
             </div>
@@ -74,15 +78,15 @@
                 <div class="card_container">
                   <img class="card_img" src="../images/phone.svg" alt="">
                   <div class="img_text">
-                    +7 (969) 303-11-11<br>
-                    +7 (861) 203-38-33
+                    <a href="tel:+79693031111">+7 (969) 303-11-11</a><br>
+                    <a href="tel:+78612033833">+7 (861) 203-38-33</a>
                   </div>
                 </div>
 
                 <div class="card_container">
                   <img class="card_img" src="../images/email.svg" alt="">
                   <div class="img_text">
-                    vit.aks@mail.ru
+                    <a href="mailto:vit.aks@mail.ru">vit.aks@mail.ru</a>
                   </div>
                 </div>
 
@@ -115,6 +119,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+a {
+  text-decoration: none;
+  color: #fef477;
+}
+
 .director_card {
   font-family: 'Tahoma';
   font-size: 14px;
