@@ -293,7 +293,7 @@ a {
     top: 0;
     right: -10%;
     height: 100%;
-    border-right: 3px dotted #ffd066;
+    border-right: 1px dotted #ffd066;
   }
 
   .director_card {
