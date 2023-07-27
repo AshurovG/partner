@@ -43,8 +43,8 @@
                 <div class="social_media">
                   <a class="link" href="https://wa.me/79693031111"><img class="social_media_img"
                       src="../images/whatsapp.svg" alt=""></a>
-                  <a class="link" href="https://t.me/Ziv1329"><img class="social_media_img" src="../images/telegram.svg"
-                      alt=""></a>
+                  <a class="link" href="https://t.me/Ziv1329"><img class="social_media_img" id="last_social_media_img"
+                      src="../images/telegram.svg" alt=""></a>
                 </div>
               </div>
 
@@ -65,8 +65,8 @@
                 <div class="social_media">
                   <a class="link" href="https://wa.me/79693031111"><img class="social_media_img"
                       src="../images/whatsapp.svg" alt=""></a>
-                  <a class="link" href="https://t.me/Ziv1329"><img class="social_media_img" src="../images/telegram.svg"
-                      alt=""></a>
+                  <a class="link" href="https://t.me/Ziv1329"><img class="social_media_img" id="last_social_media_img"
+                      src="../images/telegram.svg" alt=""></a>
                 </div>
               </div>
             </div>
@@ -141,7 +141,6 @@ a {
   min-width: 580px;
   max-width: 580px;
   height: 650px;
-  background-color: rgb(247, 247, 247);
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.3);
   border: 1px solid #fff;
 }
@@ -215,6 +214,10 @@ a {
 .social_media_img {
   width: 2rem;
   margin-right: 1rem;
+}
+
+#last_social_media_img {
+  margin-right: 0;
 }
 
 
@@ -302,7 +305,11 @@ a {
   }
 
   .line {
-    border-right: .12rem dotted #ffd066;
+    content: '';
+    top: 0;
+    right: -10%;
+    height: 100%;
+    border-right: .15rem dotted #ffd066;
   }
 
   .front_card {
@@ -348,7 +355,13 @@ a {
 }
 
 @media(max-width: 480px) {
+  .director_card {
+    position: relative;
+  }
+
   .card {
+    position: absolute;
+    top: 1%;
     min-width: 403px;
     max-width: 403px;
     height: 450px;
