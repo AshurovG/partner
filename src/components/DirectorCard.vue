@@ -146,16 +146,6 @@ a {
   border: 1px solid #fff;
 }
 
-/* .back_card {
-  min-width: 584px;
-} */
-
-.card_wrapper_for_back {
-  width: 510px;
-  height: 100%;
-  margin: 0 auto;
-}
-
 .card_wrapper {
   width: 525px;
   height: 80%;
@@ -200,15 +190,6 @@ a {
   margin-top: 1rem;
 }
 
-/* .front_card_info::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: -10%;
-  height: 100%;
-  border-right: .2rem dotted #ffd066;
-} */
-
 .line {
   content: '';
   top: 0;
@@ -220,7 +201,7 @@ a {
 .card_container {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 1.2rem;
 
   font-size: 1.1rem;
   line-height: 1.6rem;
@@ -245,7 +226,6 @@ a {
 .back_card {
   width: 100%;
   height: 320px;
-  /* margin-bottom: 30px; */
 
   background: url("../images/bg_for_directors.png");
   background-size: cover;
@@ -274,13 +254,7 @@ a {
 }
 
 .subtitle {
-  font-size: 1.8rem;
-  text-align: center;
-}
-
-.logo_title {
-  font-size: 1.2rem;
-  margin-top: .3rem;
+  font-size: 1.7rem;
   text-align: center;
 }
 
@@ -293,8 +267,6 @@ a {
   width: 50%;
   position: relative;
 }
-
-.back_card_info_container {}
 
 .back_card_logo {
   width: 50%;
@@ -312,22 +284,64 @@ a {
   align-items: flex-end;
 }
 
-
-/* .back_card_info::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -17%;
-  height: 100%;
-  border-right: .2rem dotted #ffd066;
-} */
-
-
 @media(max-height: 650px) {
   .director_card {
     height: 100%;
   }
 }
 
-@media(max-width: 600px) {}
+@media(max-width: 585px) {
+  .card {
+    min-width: 483px;
+    max-width: 483px;
+    height: 540px;
+  }
+
+  .card_wrapper {
+    width: 438px;
+  }
+
+  .front_card {
+    height: 265px;
+  }
+
+  .social_media {
+    margin-top: .8rem;
+  }
+
+  .card_container {
+    margin-bottom: 1rem;
+    font-size: .9rem;
+    line-height: 1.3rem;
+  }
+
+  .card_img {
+    width: 1.7rem;
+    margin-right: .83rem;
+  }
+
+  .social_media_img {
+    width: 1.7rem;
+    margin-right: .83rem;
+  }
+
+  .back_card {
+    height: 265px;
+  }
+
+  .logo {
+    width: 5.8rem;
+  }
+
+  .card_header_title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
 </style>
