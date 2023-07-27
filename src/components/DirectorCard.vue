@@ -195,6 +195,7 @@ a {
   right: -10%;
   height: 100%;
   border-right: 3px dotted #ffd066;
+  font-weight: normal;
 }
 
 .card_container {
@@ -288,13 +289,6 @@ a {
 }
 
 @media(max-height: 650px) {
-  .line {
-    content: '';
-    top: 0;
-    right: -10%;
-    height: 100%;
-    border-right: 1px dotted #ffd066;
-  }
 
   .director_card {
     height: 100%;
@@ -302,6 +296,11 @@ a {
 }
 
 @media(max-width: 585px) {
+
+  .line {
+    border-right-width: 2px;
+  }
+
   .card {
     min-width: 483px;
     max-width: 483px;
