@@ -418,12 +418,12 @@ a {
   .card_container {
     margin-bottom: .69rem;
     font-size: .63rem;
-    line-height: 0.9rem;
+    line-height: .9rem;
   }
 
   .card_img {
-    width: 1.42rem;
-    margin-right: .69 rem;
+    width: 1.4rem;
+    margin-right: .69rem;
   }
 
   .social_media_img {
@@ -441,6 +441,7 @@ a {
 
   .card_header_title {
     font-size: .9rem;
+    font-weight: 700;
   }
 
   .subtitle {
