@@ -9,7 +9,7 @@
               <div class="card_container">
                 <img class="card_img" src="../images/phone.svg" alt="">
                 <div class="img_text">
-                  <a href="tel:+79693031111">+7 (969) 303-11-1</a><br>
+                  <a href="tel:+79693031111">+7 (969) 303-11-11</a><br>
                   <a href="tel:+78612033833">+7 (861) 203-38-33</a>
                 </div>
               </div>

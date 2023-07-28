@@ -1,14 +1,14 @@
 <template>
-  <DirectorCard />
+  <div class="page">
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-import DirectorCard from "./components/DirectorCard.vue"
 
 export default {
   name: 'App',
   components: {
-    DirectorCard
   }
 }
 </script>
