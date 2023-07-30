@@ -1,5 +1,5 @@
 import directorCard from '../pages/DirectorCard'
-import error404 from '../pages/error404'
+// import error404 from '../pages/error404'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
@@ -8,11 +8,11 @@ const routes = [
         name: 'ashurovvitaly',
         component: directorCard
     },
-    {
-        path: '/:pathMatch(.*)*',
-        name: 'error404',
-        component: error404
-    }
+    // {
+    //     path: '/:pathMatch(.*)*',
+    //     name: 'error404',
+    //     component: error404
+    // }
 ]
 
 const router = createRouter({
