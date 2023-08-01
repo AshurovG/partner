@@ -26,7 +26,7 @@
                 <div class="img_text">
                   Краснодарский край,<br>
                   г. Кранодар,<br>
-                  ул. Старокубанская<br>
+                  ул. Старокубанская,<br>
                   143/2, офис 7, 350075
                 </div>
               </div>
@@ -94,7 +94,7 @@
                   <img class="card_img" src="../images/location.svg" alt="">
                   <div class="img_text">
                     Krasnodarskiy Krai,<br>
-                    Krasnodar, 143/2<br>
+                    Krasnodar, 143/2,<br>
                     Starokubanskaya<br>
                     str., office 7, 350075
                   </div>
