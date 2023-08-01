@@ -250,6 +250,7 @@ a {
   display: block;
   width: 7rem;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .card_header_title {
@@ -401,6 +402,7 @@ a {
 
   .logo {
     width: 4.8rem;
+    margin-bottom: 5px;
   }
 
   .card_header_title {
