@@ -298,7 +298,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 @media(max-height: 650px) {
