@@ -9,7 +9,8 @@
                             <div class="card_container">
                                 <img class="card_img" src="../images/phone_s.svg" alt="">
                                 <div class="img_text">
-                                    <a href="tel:+79885222477">+7 (988) 522-24-77</a>
+                                    <a href="tel:+79885222477">+7 (988) 522-24-77</a><br>
+                                    <a href="tel:+78612033833">+7 (861) 203-38-33</a>
                                 </div>
                             </div>
 
@@ -77,7 +78,8 @@
                                 <div class="card_container">
                                     <img class="card_img" src="../images/phone_s.svg" alt="">
                                     <div class="img_text">
-                                        <a href="tel:+79885222477">+7 (988) 522-24-77</a>
+                                        <a href="tel:+79885222477">+7 (988) 522-24-77</a><br>
+                                        <a href="tel:+78612033833">+7 (861) 203-38-33</a>
                                     </div>
                                 </div>
 
