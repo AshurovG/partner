@@ -38,6 +38,7 @@
                         <div class="front_card_logo">
                             <div class="card_logo">
                                 <img class="logo" src="../images/logo.png" alt="">
+                                <h2 class="logo_title">ООО "Партнер"</h2>
                                 <h1 class="card_header_title">Эльшан Расулов</h1>
                                 <h1 class="subtitle">экспорт директор</h1>
                                 <div class="social_media">
@@ -60,6 +61,7 @@
                         <div class="back_card_logo">
                             <div class="card_logo">
                                 <img class="logo" src="../images/logo.png" alt="">
+                                <h2 class="logo_title">PARTNER LLC</h2>
                                 <h1 class="card_header_title">ELSHAN RASULOV</h1>
                                 <h1 class="subtitle">export director</h1>
                                 <div class="social_media">
@@ -253,6 +255,12 @@ a {
     margin-bottom: 10px;
 }
 
+.logo_title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
 .card_header_title {
     font-size: 1.7rem;
     font-weight: 700;
@@ -301,6 +309,11 @@ a {
 
     .line {
         border-right-width: 2px;
+    }
+
+    .logo_title {
+        font-size: 1rem;
+        margin-bottom: .83rem;
     }
 
     .card {
@@ -358,6 +371,11 @@ a {
 @media(max-width: 480px) {
     .director_card {
         position: relative;
+    }
+
+    .logo_title {
+        font-size: .83rem;
+        margin-bottom: .69rem;
     }
 
     .card {
@@ -422,6 +440,11 @@ a {
         height: 375px;
     }
 
+    .logo_title {
+        font-size: .69rem;
+        margin-bottom: .58rem;
+    }
+
     .card_wrapper {
         width: 304px;
     }
@@ -473,6 +496,11 @@ a {
         min-width: 280px;
         max-width: 280px;
         height: 312px;
+    }
+
+    .logo_title {
+        font-size: .58rem;
+        margin-bottom: .48rem;
     }
 
     .card_wrapper {
